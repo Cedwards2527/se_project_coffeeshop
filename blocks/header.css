@@ -8,6 +8,8 @@
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
+  z-index: 1;
+  box-sizing: border-box;
 }
 .header__title {
   max-width: 729px;
@@ -22,6 +24,7 @@
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
+  font-weight: 400;
   color: #3f96f3;
   display: flex;
 }
@@ -38,6 +41,7 @@
   width: 646px;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__paragraph {
